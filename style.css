@@ -22,8 +22,8 @@ body{
 }
 
 .card{
-    width:400px;
-    max-width:90%;
+    width: 90%;
+    max-width: 450px;
 }
 
 .card img{
@@ -227,22 +227,25 @@ button:hover{
 @media (max-width: 768px){
 
     .card{
-        width:95%;
-        padding:20px;
+        width: 90% !important;
+        max-width: none;
+        padding: 20px;
+        margin: 20px auto;
     }
 
     h1{
-        font-size:28px;
+        font-size: 2rem;
+        text-align: center;
     }
 
-    #typing,
-    #reply{
-        font-size:14px;
-        line-height:1.6;
+    p{
+        font-size: 14px;
+        line-height: 1.6;
     }
 
-    .card img{
-        width:90px;
+    button{
+        width: 120px;
+        font-size: 14px;
     }
 
 }
