@@ -59,14 +59,14 @@ let current = 0;
 
 const bg = document.querySelector(".background-slider");
 
+// tampilkan foto pertama
+bg.style.backgroundImage = `url(${photos[0]})`;
+
 setInterval(() => {
 
     current = (current + 1) % photos.length;
 
-    leftSide.style.backgroundImage =
-        `url(${photos[current]})`;
-
-    rightSide.style.backgroundImage =
+    bg.style.backgroundImage =
         `url(${photos[current]})`;
 
 }, 3000);
