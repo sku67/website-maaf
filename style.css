@@ -223,3 +223,26 @@ button:hover{
     position:relative;
     z-index:1;
 }
+
+@media (max-width: 768px){
+
+    .card{
+        width:95%;
+        padding:20px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    #typing,
+    #reply{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .card img{
+        width:90px;
+    }
+
+}
