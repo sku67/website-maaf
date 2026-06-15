@@ -57,12 +57,7 @@ const photos = [
 
 let current = 0;
 
-const leftSide = document.querySelector(".left");
-const rightSide = document.querySelector(".right");
-
-// foto pertama
-leftSide.style.backgroundImage = `url(${photos[0]})`;
-rightSide.style.backgroundImage = `url(${photos[0]})`;
+const bg = document.querySelector(".background-slider");
 
 setInterval(() => {
 
